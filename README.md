@@ -1,3 +1,3 @@
 # myPortfolio
 
-This is college placement training.
+This is college placement training repository.
