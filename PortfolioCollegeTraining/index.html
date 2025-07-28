@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vivin's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+  <style>
+    
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="logo">Vivin</h1>
+    <nav>
+      <ul id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  <div class="menu-toggle" id="menu-toggle">
+      &#9776;
+</div>
+
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <img src="image/myimage.jpeg" alt="Vivin's Photo" />
+        <h2>Hey, I'm Vivin</h2>
+        <p>Hi, I'm Vivin — a passionate Computer Science student, Java & Python enthusiast,Java DSA and aspiring full-stack developer. Currently focusing on the AWS Cloud computing.</p>
+      </div>
+    </section>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I'm currently pursuing a B.E. in Computer Science and Engineering final year at Dhirajlal Gandhi College of Technology. I enjoy solving problems, building mini-projects, and continuously upgrading my skills in Java, Python, Spring Boot, and AWS. I'm also exploring cloud technologies and UI/UX design to broaden my development capabilities.</p>
+    </section>
+
+    <section id="skills" class="section">
+  <h2>Skills</h2>
+  <div class="skills-container">
+    <div class="skill">Java</div>
+    <div class="skill">Java DSA</div>
+    <div class="skill">Python</div>
+    <div class="skill">HTML</div>
+    <div class="skill">CSS</div>
+    <DIV class="skill">Bootstrap</DIV>
+    <div class="skill">PostgreSQL</div>
+    <div class="skill">DBMS</div>
+    <div class="skill">SQL</div>
+    <div class="skill">AWS Cloud Computing</div>
+  </div>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <ul class="education-list">
+    <li>
+      <h3>College</h3>
+      <p><strong>Degree:</strong> B.E. Computer Science and Engineering</p>
+      <p><strong>Institution:</strong> Dhirajlal Gandhi College of Technology</p>
+      <p><strong>Year:</strong> 2022 - 2026</p>
+    </li>
+    <li>
+      <h3>Higher Secondary</h3>
+      <p><strong>School:</strong> KRP Martic Higher Secondary School</p>
+      <p><strong>Board:</strong> State Board</p>
+      <p><strong>Year:</strong> 2020 - 2022</p>
+    </li>
+    
+  </ul>
+</section>
+
+
+
+    
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="projects-container">
+    <div class="project-card">
+      <h3>ATM Simulator</h3>
+      <p>A command-line Java project that simulates ATM operations like balance check, deposit, and withdraw.</p>
+    </div>
+    <div class="project-card">
+      <h3>Email Generator</h3>
+      <p>A Python script that creates personalized emails using templates and user input data.</p>
+    </div>
+    <div class="project-card">
+      <h3>Student Database</h3>
+      <p>Full-stack CRUD web app using PostgreSQL, HTML/CSS for managing student records.</p>
+    </div>
+  </div>
+</section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <div class="form-btns">
+          <button type="submit">Submit</button>
+          <button type="reset">Clear</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Vivin. All rights reserved.</p>
+  </footer>
+  <script>
+  const toggleBtn = document.getElementById('menu-toggle');
+  const navLinks = document.getElementById('nav-links');
+
+  toggleBtn.addEventListener('click', () => {
+    navLinks.classList.toggle('show');
+  });
+</script>
+</body>
+</html>
